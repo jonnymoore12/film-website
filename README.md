@@ -1,3 +1,3 @@
 # FILM WEBSITE
 
-As an exercise to brush up my styling skills, I've decided to build a website using Bootstrap for an independent film I wrote / directed called 'Made In Taiwan'.
+To brush up on my styling skills, I decided to use Bootstrap to build a website for an indie film that I wrote and directed.
