@@ -30,6 +30,22 @@
       border-color: #f1f1f1;
     }
 
+    footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+    }
+
+    footer a {
+      color: rgb(180, 58, 41);
+    }
+
+    footer a:hover {
+      color: #777;
+      text-decoration: none;
+    }
+
+
     </style>
 
   </head>
@@ -118,16 +134,32 @@
             <img src="images/Ox Carpet.jpg" class="info img-circle" height="150px"/>
           </a>
           <div id="extra-info3" class="collapse">
-            <p>'Made In Taiwan' has won several awards at international film festivals.</p>
-            <p>'Best UK Film' Manchester International Film Festival 2016</p>
-            <p>'Best Edit' Oxford International Film Festival 2016</p>
-            <p>'Best Screenplay', 'Best Production Design' Melbourne Independent Film Festival 2016</p>
+            <ul>
+              <li>'Best UK Film' (Manchester International Film Festival 2016)</li>
+              <li>'Best Edit' (Oxford International Film Festival 2016)</li>
+              <li>'Best Screenplay' (Melbourne Independent Film Festival 2016)</li>
+              <li>'Best Production Design' (Melbourne Independent Film Festival 2016)</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
 
+    <footer class="text-center">
+      <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <br />
+      <br />
+      <p>Website Made By Jonny Moore <a href="index.html" data-toggle="tooltip" title="Visit mitthemovie">www.mitthemovie.com</a></p>
+    </footer>
 
+  <script>
+    $(document).ready(function(){
+        // Initialize Tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+    })
+  </script>
 
   </body>
 </html>
